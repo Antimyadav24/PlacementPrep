@@ -1,0 +1,18 @@
+/* src/styles/theme.css */
+@layer utilities {
+  /* Glassmorphism background */
+  .bg-glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-xl;
+  }
+  /* Gradient backgrounds */
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, #0a0e27, #00bfff);
+  }
+  .bg-gradient-card {
+    background: linear-gradient(135deg, #1f2937, #0a0e27);
+  }
+  /* Soft shadow for cards */
+  .shadow-card {
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  }
+}

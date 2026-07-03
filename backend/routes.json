@@ -1,0 +1,7 @@
+{
+  "/admin/*": "/$1",
+  "/results/leaderboard*": "/results$2",
+  "/results/dashboard-stats": "/results",
+  "/results/submit": "/results",
+  "/bookmarks/toggle/*": "/bookmarks"
+}

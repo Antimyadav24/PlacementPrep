@@ -1,0 +1,652 @@
+[
+  {
+    "id": "apt-api-0",
+    "question": "How many odd days are there in the century starting from 1001 to 1100?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "explanation": "The number of odd days in a century can be calculated as (Number of years / 4). In this case, (100/4) = 25 with a remainder of 0, so there are 5 odd days.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-1",
+    "question": "If Alice is 5 years older than Bob, and the sum of their ages is 35, how old is Alice?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "20",
+    "explanation": "Let Bob's age be x. Then Alice's age is x + 5. Given that x + (x + 5) = 35. Solving this equation, we find x = 15, so Alice is x + 5 = 20 years old.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-2",
+    "question": "How many different combinations of 2 letters can be chosen from the word 'BANANA'?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correctAnswer": "15",
+    "explanation": "There are 6 unique letters in the word 'BANANA'. Using the combination formula, C(6, 2) = 6! / (2! * (6 - 2)!) = 15.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-3",
+    "question": "The sum of ages of H and I is 100 years. If the ratio of their ages is 3:5, what is I's age?",
+    "options": [
+      "40 years",
+      "45 years",
+      "50 years",
+      "55 years"
+    ],
+    "correctAnswer": "50 years",
+    "explanation": "Let the ages of H and I be 3x and 5x, respectively. Given that 3x + 5x = 100. Solving this equation gives x = 10. Hence, I's age = 5 * 10 = 50 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-4",
+    "question": "If August 1, 2024, falls on a Thursday, what day of the week will August 31, 2024, be?",
+    "options": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "correctAnswer": "Saturday",
+    "explanation": "August has 31 days. Since 31 is 4 weeks and 3 days, adding 3 days to Thursday gives us Saturday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-5",
+    "question": "The sum of the present ages of father and son is 60 years. Five years ago, the ratio of their ages was 5:1. What is the present age of the father?",
+    "options": [
+      "40 years",
+      "45 years",
+      "50 years",
+      "55 years"
+    ],
+    "correctAnswer": "45 years",
+    "explanation": "Let the present age of the father be x years. The present age of the son is (60 - x) years. Five years ago, father's age = x - 5 and son's age = (60 - x) - 5. According to the given ratio, (x - 5) / ((60 - x) - 5) = 5 / 1. Solving this equation gives x = 45. Therefore, the present age of the father = 45 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-6",
+    "question": "How many different combinations of 3 fruits can be chosen from a basket containing 5 types of fruits if each type of fruit can be chosen multiple times?",
+    "options": [
+      "15",
+      "20",
+      "10",
+      "25"
+    ],
+    "correctAnswer": "35",
+    "explanation": "Using the formula for combinations with repetition, (5 + 3 - 1) choose 3 = 7 choose 3 = 35.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-7",
+    "question": "If Thiru is 5 years older than Bob, and the sum of their ages is 35, how old is Alice?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctAnswer": "20",
+    "explanation": "Let Bob's age be x. Then Alice's age is x + 5. Given that x + (x + 5) = 35. Solving this equation, we find x = 15, so Alice is x + 5 = 20 years old.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-8",
+    "question": "In a box of assorted candies, how many different combinations of 4 candies can be chosen if there are 8 types of candies and each type can be chosen multiple times?",
+    "options": [
+      "70",
+      "120",
+      "56",
+      "84"
+    ],
+    "correctAnswer": "56",
+    "explanation": "Using the formula for combinations with repetition, (8 + 4 - 1) choose 4 = 11 choose 4 = 330 / 6 = 55.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-9",
+    "question": "What is the value of 2! ?",
+    "options": [
+      "A 1",
+      "B 2",
+      "C 3",
+      "D 4"
+    ],
+    "correctAnswer": " 2",
+    "explanation": "Factorial of 2, denoted as 2!, is the product of all positive integers from 1 to 2, which is equal to 2 * 1 = 2.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-10",
+    "question": "If 18th February 2012 was Saturday, what day of the week was 18th February 2022?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "correctAnswer": "Friday",
+    "explanation": "There are 10 years between 2012 and 2022. Since 10 years have passed, the day will be 1 day behind Saturday, which is Friday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-11",
+    "question": "In how many ways can 5 beads be arranged on a circular bracelet?",
+    "options": [
+      "12",
+      "4",
+      "24",
+      "8"
+    ],
+    "correctAnswer": "4",
+    "explanation": "For a circular arrangement with n objects, the number of permutations is (n - 1)!. So, for 5 beads, the number of permutations is (5 - 1)! = 4! = 24.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-12",
+    "question": "A solution contains 40% alcohol. How many liters of pure alcohol should be added to 15 liters of the solution to make it a 70% alcohol solution?",
+    "options": [
+      " 5 liters",
+      " 7.5 liters",
+      " 10 liters",
+      " 12.5 liters"
+    ],
+    "correctAnswer": " 10 liters",
+    "explanation": "Initially, the solution contains 6 liters of alcohol and 9 liters of water. Let x be the amount of pure alcohol added. After adding x liters of pure alcohol, the total volume becomes 15 + x liters, and the amount of alcohol becomes 6 + x liters. According to the given condition, (6 + x) / (15 + x) = 70/100. Solving this equation gives x = 10 liters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-13",
+    "question": "How many ways can 6 books be arranged in groups of 2?",
+    "options": [
+      "15",
+      "30",
+      "20",
+      "12"
+    ],
+    "correctAnswer": "15",
+    "explanation": "Using the combination formula, C(6, 2) = 6! / (2! * (6 - 2)!) = 15.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-14",
+    "question": "How many permutations can be formed using the letters of the word 'REPEAT'?",
+    "options": [
+      "720",
+      "120",
+      "360",
+      "5040"
+    ],
+    "correctAnswer": "720",
+    "explanation": "The word 'REPEAT' has 6 letters with repetitions: 2 'E' and 2 'R'. The total number of permutations is 6! / (2! * 2!) = 720.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-15",
+    "question": "A solution contains 25% salt. How many liters of pure water should be added to 20 liters of the solution to make it a 20% salt solution?",
+    "options": [
+      " 5 liters",
+      " 8 liters",
+      " 10 liters",
+      " 12 liters"
+    ],
+    "correctAnswer": " 10 liters",
+    "explanation": "Initially, the solution contains 5 liters of salt and 15 liters of water. Let x be the amount of pure water added. After adding x liters of pure water, the total volume becomes 20 + x liters, and the amount of salt remains 5 liters. According to the given condition, (5 / (20 + x)) * 100 = 20%. Solving this equation gives x = 10 liters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-16",
+    "question": "If today is Friday, what day will it be after 1 week?",
+    "options": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+    ],
+    "correctAnswer": "Friday",
+    "explanation": "If today is Friday, after 1 week, it will still be Friday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-17",
+    "question": "How many combinations of 3 objects can be formed from a set of 7 objects?",
+    "options": [
+      "35",
+      "42",
+      "21",
+      "14"
+    ],
+    "correctAnswer": "35",
+    "explanation": "The formula for combinations is C(n, r) = n! / (r! * (n - r)!). Substituting the values, C(7, 3) = 7! / (3! * (7 - 3)!) = 35.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-18",
+    "question": "How many different combinations of 2 letters can be chosen from the set {A, B, C, D} with repetition allowed?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "6"
+    ],
+    "correctAnswer": "10",
+    "explanation": "Using the formula for combinations with repetition, (4 + 2 - 1) choose 2 = 5 choose 2 = 10.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-19",
+    "question": "A solution contains 25% alcohol. How many liters of pure alcohol should be added to 20 liters of the solution to make it a 50% alcohol solution?",
+    "options": [
+      " 5 liters",
+      " 10 liters",
+      " 15 liters",
+      " 20 liters"
+    ],
+    "correctAnswer": " 20 liters",
+    "explanation": "Initially, the solution contains 5 liters of alcohol and 15 liters of water. Let x be the amount of pure alcohol added. After adding x liters of pure alcohol, the total volume becomes 20 + x liters, and the amount of alcohol becomes 5 + x liters. According to the given condition, (5 + x) / (20 + x) = 50/100. Solving this equation gives x = 20 liters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-20",
+    "question": "How many different groups of 4 people can be formed from a total of 8 people?",
+    "options": [
+      "56",
+      "70",
+      "35",
+      "24"
+    ],
+    "correctAnswer": "70",
+    "explanation": "The number of combinations of selecting r objects from n distinct objects is given by nCr = n! / (r! * (n - r)!). So, for forming groups of 4 people from 8, the number of combinations is 8C4 = 8! / (4! * (8 - 4)!) = 70.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-21",
+    "question": "If today is Friday, what day was it 5 days ago?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "correctAnswer": "Sunday",
+    "explanation": "If today is Friday, 5 days ago, it was Sunday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-22",
+    "question": "The product of ages of J and K is 702. If the ratio of their ages is 3:4, what is K's age?",
+    "options": [
+      "14 years",
+      "18 years",
+      "21 years",
+      "24 years"
+    ],
+    "correctAnswer": "21 years",
+    "explanation": "Let the ages of J and K be 3x and 4x, respectively. Given that 3x * 4x = 702. Solving this equation gives x = 6. Hence, K's age = 4 * 6 = 24 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-23",
+    "question": "If April 1, 2021, falls on a Thursday, what day of the week will April 30, 2021, be?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correctAnswer": "Friday",
+    "explanation": "April has 30 days. Since 30 is 4 weeks and 2 days, adding 2 days to Thursday gives us Friday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-24",
+    "question": "A container has 40 liters of a solution containing milk and water in the ratio of 3:1. How much of the mixture must be taken out and replaced with water so that the resulting mixture has equal parts of milk and water?",
+    "options": [
+      " 10 liters",
+      " 15 liters",
+      " 20 liters",
+      " 25 liters"
+    ],
+    "correctAnswer": " 15 liters",
+    "explanation": "Let's assume x liters of the mixture is taken out and replaced with water. After this operation, the ratio of milk to water remains the same. So, the amount of milk in the remaining solution is (3/4)*(40-x) liters. For the resulting mixture to have equal parts of milk and water, (3/4)*(40-x) should be equal to (1/2)*(40-x). Solving this equation gives x = 15 liters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-25",
+    "question": "How many permutations can be formed using the letters of the word 'BOOKKEEPER'?",
+    "options": [
+      "9979200",
+      "720",
+      "151200",
+      "3628800"
+    ],
+    "correctAnswer": "9979200",
+    "explanation": "The word 'BOOKKEEPER' has 10 letters with repetitions: 3 'E', 2 'O', and 2 'K'. The total number of permutations is 10! / (3! * 2! * 2!) = 9,979,200.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-26",
+    "question": "In how many ways can the letters of the word 'BANANA' be arranged?",
+    "options": [
+      "60",
+      "120",
+      "30",
+      "90"
+    ],
+    "correctAnswer": "60",
+    "explanation": "The word 'BANANA' has 6 letters with repetitions: 3 'A', 2 'N', and 1 'B'. The total number of permutations is 6! / (3! * 2!) = 60.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-27",
+    "question": "What day will be on 1st January 2400?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correctAnswer": "Thursday",
+    "explanation": "1st January 2400 will be a Thursday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-28",
+    "question": "The sum of the ages of a father and his son is 45 years. Five years ago, the father was four times as old as his son. What are their present ages?",
+    "options": [
+      "30 years, 15 years",
+      "35 years, 10 years",
+      "40 years, 5 years",
+      "45 years, 0 years"
+    ],
+    "correctAnswer": "35 years, 10 years",
+    "explanation": "Let the present age of the son be x years. Then, the present age of the father = (45 - x) years. According to the given conditions, (45 - x - 5) = 4 * (x - 5). Solving this equation gives x = 10. Therefore, the present ages of the father and the son are 35 years and 10 years respectively.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-29",
+    "question": "A 40-liter solution contains alcohol and water in the ratio 4:1. How many liters of alcohol must be added to make the ratio 3:1?",
+    "options": [
+      " 4 liters",
+      " 8 liters",
+      " 12 liters",
+      " 16 liters"
+    ],
+    "correctAnswer": " 8 liters",
+    "explanation": "Initially, the solution contains 32 liters of alcohol and 8 liters of water. To make the ratio 3:1, the amount of water remains the same while the amount of alcohol should be 3 times the amount of water. So, 8*(3/1) = 24 liters of alcohol should be added.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-30",
+    "question": "If October 1, 2024, falls on a Tuesday, what day of the week will October 31, 2024, be?",
+    "options": [
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "correctAnswer": "Thursday",
+    "explanation": "October has 31 days. Since 31 is 4 weeks and 3 days, adding 3 days to Tuesday gives us Thursday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-31",
+    "question": "A shopkeeper mixes two types of pulses, one costing $3/kg and the other $4/kg, to make a mixture worth $3.50/kg. What is the ratio in which the two types of pulses are mixed?",
+    "options": [
+      " 1:2",
+      " 2:1",
+      " 3:2",
+      " 2:3"
+    ],
+    "correctAnswer": " 1:2",
+    "explanation": "Let x be the cost price per kg of the mixture. According to the given ratio, (4 - 3.50) : (3.50 - 3) = 0.50 : 0.50 = 1:1 = 1:1 * 1/1 = 1:1. Since the required ratio is $0.50 away from each of the individual prices, for a total of $1, the required ratio would be half of this, which is 1:2.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-32",
+    "question": "The product of ages of L and M is 819. If the ratio of their ages is 5:9, what is M's age?",
+    "options": [
+      "21 years",
+      "24 years",
+      "27 years",
+      "30 years"
+    ],
+    "correctAnswer": "27 years",
+    "explanation": "Let the ages of L and M be 5x and 9x, respectively. Given that 5x * 9x = 819. Solving this equation gives x = 3. Hence, M's age = 9 * 3 = 27 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-33",
+    "question": "12 years ago, B's age was one-third of his present age. What is B's present age?",
+    "options": [
+      "30 years",
+      "36 years",
+      "42 years",
+      "48 years"
+    ],
+    "correctAnswer": "36 years",
+    "explanation": "Let B's present age be x. According to the given condition, x - 12 = (1/3) * x. Solving this equation gives x = 36. Hence, B's present age = 36 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-34",
+    "question": "How many arrangements are possible for the letters in the word 'BOOKKEEPER'?",
+    "options": [
+      "9979200",
+      "720",
+      "151200",
+      "3628800"
+    ],
+    "correctAnswer": "9979200",
+    "explanation": "The word 'BOOKKEEPER' has 10 letters with repetitions: 3 'E', 2 'O', and 2 'K'. The total number of permutations is 10! / (3! * 2! * 2!) = 9,979,200.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-35",
+    "question": "What is the value of 2! ?",
+    "options": [
+      "A 1",
+      "B 2",
+      "C 3",
+      "D 4"
+    ],
+    "correctAnswer": " 2",
+    "explanation": "Factorial of 2, denoted as 2!, is the product of all positive integers from 1 to 2, which is equal to 2 * 1 = 2.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-36",
+    "question": "In how many ways can 3 candies be chosen from a jar containing 10 different candies?",
+    "options": [
+      "84",
+      "120",
+      "210",
+      "56"
+    ],
+    "correctAnswer": "120",
+    "explanation": "The number of combinations of selecting r objects from n distinct objects is given by nCr = n! / (r! * (n - r)!). So, for choosing 3 candies from 10, the number of combinations is 10C3 = 10! / (3! * (10 - 3)!) = 120.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-37",
+    "question": "If April 1, 2024, falls on a Saturday, what day of the week will April 30, 2024, be?",
+    "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correctAnswer": "Tuesday",
+    "explanation": "April has 30 days. Since 30 is 4 weeks and 2 days, adding 2 days to Saturday gives us Tuesday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-38",
+    "question": "What is the day on 25th December 2023?",
+    "options": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
+    "correctAnswer": "Monday",
+    "explanation": "25th December 2023 falls on Monday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-39",
+    "question": "A container has 40 liters of a solution containing milk and water in the ratio of 3:1. How much of the mixture must be taken out and replaced with water so that the resulting mixture has equal parts of milk and water?",
+    "options": [
+      " 10 liters",
+      " 15 liters",
+      " 20 liters",
+      " 25 liters"
+    ],
+    "correctAnswer": " 15 liters",
+    "explanation": "Let's assume x liters of the mixture is taken out and replaced with water. After this operation, the ratio of milk to water remains the same. So, the amount of milk in the remaining solution is (3/4)*(40-x) liters. For the resulting mixture to have equal parts of milk and water, (3/4)*(40-x) should be equal to (1/2)*(40-x). Solving this equation gives x = 15 liters.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-40",
+    "question": "In a lottery game, there are 50 numbers. How many different combinations of 6 numbers can be chosen?",
+    "options": [
+      "151200",
+      "15150",
+      "19600",
+      "2000"
+    ],
+    "correctAnswer": "15150",
+    "explanation": "Using the combination formula, C(50, 6) = 50! / (6! * (50 - 6)!) = 15,150.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-41",
+    "question": "A merchant blends two types of coffee, one costing $7/kg and the other $8/kg, to make a mixture worth $7.50/kg. What is the ratio in which the two types of coffee are mixed?",
+    "options": [
+      " 1:2",
+      " 2:1",
+      " 3:2",
+      " 2:3"
+    ],
+    "correctAnswer": " 1:2",
+    "explanation": "Let x be the cost price per kg of the mixture. According to the given ratio, (8 - 7.50) : (7.50 - 7) = 0.50 : 0.50 = 1:1 = 1:1 * 1/1 = 1:1. Since the required ratio is $0.50 away from each of the individual prices, for a total of $1, the required ratio would be half of this, which is 1:2.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-42",
+    "question": "32 years ago, M's age was one-fourteenth of his present age. What is M's present age?",
+    "options": [
+      "416 years",
+      "448 years",
+      "480 years",
+      "512 years"
+    ],
+    "correctAnswer": "448 years",
+    "explanation": "Let M's present age be x. According to the given condition, x - 32 = (1/14) * x. Solving this equation gives x = 448. Hence, M's present age = 448 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-43",
+    "question": "A's age is 4 years more than twice the age of B. If the total of their ages is 62 years, what is the age of A?",
+    "options": [
+      "34 years",
+      "36 years",
+      "38 years",
+      "40 years"
+    ],
+    "correctAnswer": "38 years",
+    "explanation": "Let the age of B be x years. Then, the age of A = (2x + 4) years. According to the given conditions, (2x + 4) + x = 62. Solving this equation gives x = 19. Therefore, the age of A = (2 * 19) + 4 = 38 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-44",
+    "question": "If April 1, 2021, falls on a Thursday, what day of the week will April 30, 2021, be?",
+    "options": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "correctAnswer": "Friday",
+    "explanation": "April has 30 days. Since 30 is 4 weeks and 2 days, adding 2 days to Thursday gives us Friday.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-45",
+    "question": "How many different permutations can be made using the letters of the word 'SUCCESS'?",
+    "options": [
+      "2520",
+      "720",
+      "5040",
+      "362880"
+    ],
+    "correctAnswer": "2520",
+    "explanation": "The word 'SUCCESS' has 7 letters with repetitions: 3 'S' and 2 'C'. The total number of permutations is 7! / (3! * 2!) = 2,520.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-46",
+    "question": "How many odd days are there in the century starting from 1801 to 1900?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "explanation": "The number of odd days in a century can be calculated as (Number of years / 4). In this case, (100/4) = 25 with a remainder of 0, so there are 5 odd days.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-47",
+    "question": "36 years ago, U's age was one-twenty-second of his present age. What is U's present age?",
+    "options": [
+      "756 years",
+      "792 years",
+      "828 years",
+      "864 years"
+    ],
+    "correctAnswer": "792 years",
+    "explanation": "Let U's present age be x. According to the given condition, x - 36 = (1/22) * x. Solving this equation gives x = 792. Hence, U's present age = 792 years.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-48",
+    "question": "How many odd days are there in the century starting from 1401 to 1500?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctAnswer": "5",
+    "explanation": "The number of odd days in a century can be calculated as (Number of years / 4). In this case, (100/4) = 25 with a remainder of 0, so there are 5 odd days.",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "apt-api-49",
+    "question": "A trader blends two types of rice, one costing $4/kg and the other $5/kg, to make a mixture worth $4.50/kg. What is the ratio in which the two types of rice are mixed?",
+    "options": [
+      " 1:2",
+      " 2:1",
+      " 3:2",
+      " 2:3"
+    ],
+    "correctAnswer": " 1:2",
+    "explanation": "Let x be the cost price per kg of the mixture. According to the given ratio, (5 - 4.50) : (4.50 - 4) = 0.50 : 0.50 = 1:1 = 1:1 * 1/1 = 1:1. Since the required ratio is $0.50 away from each of the individual prices, for a total of $1, the required ratio would be half of this, which is 1:2.",
+    "difficulty": "Medium"
+  }
+]
