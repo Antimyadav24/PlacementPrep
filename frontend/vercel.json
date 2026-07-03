@@ -1,4 +1,7 @@
 {
+  "buildCommand": "npm install && vite build",
+  "installCommand": "npm install",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/api/(.*)",
