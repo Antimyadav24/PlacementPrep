@@ -1,13 +1,11 @@
 services:
   - type: web
     name: placeprep-backend
-    env: java
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/place-prep-0.0.1-SNAPSHOT.jar
+    env: docker
+    rootDir: backend
     envVars:
       - key: PORT
         value: 8080
-    rootDir: backend
   
   - type: web
     name: placeprep-frontend
@@ -21,4 +19,3 @@ services:
           name: placeprep-backend
           type: web
           property: host
-          envVarKey: VITE_API_BASE_URL
