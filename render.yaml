@@ -2,6 +2,7 @@ services:
   - type: web
     name: placeprep-backend
     env: docker
+    plan: free
     rootDir: backend
     envVars:
       - key: PORT
@@ -10,6 +11,7 @@ services:
   - type: web
     name: placeprep-frontend
     env: static
+    plan: free
     buildCommand: npm install; npm run build
     staticPublishPath: dist
     rootDir: frontend
