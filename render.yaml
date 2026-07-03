@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: placeprep-backend
+    env: java
+    buildCommand: ./mvnw clean package -DskipTests
+    startCommand: java -jar target/place-prep-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: PORT
+        value: 8080
+    rootDir: backend
+  
+  - type: web
+    name: placeprep-frontend
+    env: static
+    buildCommand: npm install; npm run build
+    staticPublishPath: dist
+    rootDir: frontend
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          name: placeprep-backend
+          type: web
+          property: host
+          envVarKey: VITE_API_BASE_URL
